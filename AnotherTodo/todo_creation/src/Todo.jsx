@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {  useState } from "react";
 import AddTodo from "./component_Todo/AddTodo";
 import ItemList from "./component_Todo/ItemList";
 
@@ -14,8 +14,11 @@ export default function Todo()
             status:false
         }
    ]});
-    //   console.log(item);
    }
+
+//    useEffect(()=>{
+
+// },[]);
     
     return (
         <div> 
@@ -35,7 +38,7 @@ export default function Todo()
                 Completed Data
             </div>
             <div>
-                <ItemList todo={todo.filter((item)=> item.status)} setTodo={setTodo} wholetodo={todo}/>
+                <ItemList todo={todo.filter((item)=> item.status)} setTodo={setTodo} wholeTodo={todo}/>
             </div>
 
             <div>

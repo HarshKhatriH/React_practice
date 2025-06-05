@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicogdfgde"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "todo": [
+    {
+      "id": 1749049464752,
+      "status": true
+    },
+    {
+      "name": "harsh khatri",
+      "status": false,
+      "id": 1749049485182
+    }
+  ]
+}

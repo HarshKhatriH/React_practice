@@ -15,7 +15,8 @@ export default function Todo()
         status:false,
         id:text+Date.now(),
        }
-    ], );
+    ], ); 
+    
    }
      
    return(

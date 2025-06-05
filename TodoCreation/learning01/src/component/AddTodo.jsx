@@ -6,7 +6,9 @@ import { useState } from "react";
     function inputHandler(e)
     {
         setText(e.target.value);
+        setText('');
     }
+    
 
     return(
         <div>
@@ -16,12 +18,13 @@ import { useState } from "react";
             <div>
               <input placeholder="what you want to add"
                      onChange={inputHandler}
-                     value={text} />
+                     value={text} 
+                      />
                      
             </div>
 
             <button onClick={() => {
-                addTodoList(text);
+                addTodoList(text) ;
             }}>
                 ADD
             </button>
