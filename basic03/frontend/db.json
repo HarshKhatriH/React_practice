@@ -4,16 +4,6 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
-    },
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicogdfgde"
     }
   ],
   "comments": [
@@ -28,13 +18,319 @@
   },
   "todo": [
     {
-      "id": 1749049464752,
-      "status": true
+      "0": {
+        "0": {
+          "data": "khatri",
+          "id": "1",
+          "status": true
+        },
+        "1": {
+          "0": {
+            "data": "khatri",
+            "id": "1",
+            "status": false
+          },
+          "1": {
+            "0": {
+              "data": "khatri",
+              "id": "1",
+              "status": false
+            },
+            "1": {
+              "data": "harsh",
+              "id": "2",
+              "status": true
+            },
+            "2": {
+              "data": "harsh jksvd",
+              "id": "3",
+              "status": false
+            },
+            "data": "harsh",
+            "id": "2",
+            "status": true
+          },
+          "2": {
+            "data": "harsh jksvd",
+            "id": "3",
+            "status": false
+          },
+          "data": "harsh",
+          "id": "2",
+          "status": false
+        },
+        "2": {
+          "data": "harsh jksvd",
+          "id": "3",
+          "status": false
+        },
+        "data": "khatri",
+        "id": "1",
+        "status": true
+      },
+      "1": {
+        "0": {
+          "0": {
+            "data": "khatri",
+            "id": "1",
+            "status": true
+          },
+          "1": {
+            "0": {
+              "data": "khatri",
+              "id": "1",
+              "status": false
+            },
+            "1": {
+              "0": {
+                "data": "khatri",
+                "id": "1",
+                "status": false
+              },
+              "1": {
+                "data": "harsh",
+                "id": "2",
+                "status": true
+              },
+              "2": {
+                "data": "harsh jksvd",
+                "id": "3",
+                "status": false
+              },
+              "data": "harsh",
+              "id": "2",
+              "status": true
+            },
+            "2": {
+              "data": "harsh jksvd",
+              "id": "3",
+              "status": false
+            },
+            "data": "harsh",
+            "id": "2",
+            "status": false
+          },
+          "2": {
+            "data": "harsh jksvd",
+            "id": "3",
+            "status": false
+          },
+          "data": "khatri",
+          "id": "1",
+          "status": false
+        },
+        "1": {
+          "0": {
+            "data": "khatri",
+            "id": "1",
+            "status": false
+          },
+          "1": {
+            "0": {
+              "data": "khatri",
+              "id": "1",
+              "status": false
+            },
+            "1": {
+              "data": "harsh",
+              "id": "2",
+              "status": true
+            },
+            "2": {
+              "data": "harsh jksvd",
+              "id": "3",
+              "status": false
+            },
+            "data": "harsh",
+            "id": "2",
+            "status": true
+          },
+          "2": {
+            "data": "harsh jksvd",
+            "id": "3",
+            "status": false
+          },
+          "data": "harsh",
+          "id": "2",
+          "status": true
+        },
+        "2": {
+          "data": "harsh jksvd",
+          "id": "3",
+          "status": false
+        },
+        "data": "harsh",
+        "id": "2",
+        "status": false
+      },
+      "2": {
+        "data": "harsh jksvd",
+        "id": "3",
+        "status": false
+      },
+      "data": "harsh jksvd",
+      "id": 1,
+      "status": false
     },
     {
-      "name": "harsh khatri",
-      "status": false,
-      "id": 1749049485182
+      "0": {
+        "0": {
+          "data": "khatri",
+          "id": "1",
+          "status": true
+        },
+        "1": {
+          "0": {
+            "data": "khatri",
+            "id": "1",
+            "status": false
+          },
+          "1": {
+            "0": {
+              "data": "khatri",
+              "id": "1",
+              "status": false
+            },
+            "1": {
+              "data": "harsh",
+              "id": "2",
+              "status": true
+            },
+            "2": {
+              "data": "harsh jksvd",
+              "id": "3",
+              "status": false
+            },
+            "data": "harsh",
+            "id": "2",
+            "status": true
+          },
+          "2": {
+            "data": "harsh jksvd",
+            "id": "3",
+            "status": false
+          },
+          "data": "harsh",
+          "id": "2",
+          "status": false
+        },
+        "2": {
+          "data": "harsh jksvd",
+          "id": "3",
+          "status": false
+        },
+        "data": "khatri",
+        "id": "1",
+        "status": false
+      },
+      "1": {
+        "0": {
+          "0": {
+            "data": "khatri",
+            "id": "1",
+            "status": true
+          },
+          "1": {
+            "0": {
+              "data": "khatri",
+              "id": "1",
+              "status": false
+            },
+            "1": {
+              "0": {
+                "data": "khatri",
+                "id": "1",
+                "status": false
+              },
+              "1": {
+                "data": "harsh",
+                "id": "2",
+                "status": true
+              },
+              "2": {
+                "data": "harsh jksvd",
+                "id": "3",
+                "status": false
+              },
+              "data": "harsh",
+              "id": "2",
+              "status": true
+            },
+            "2": {
+              "data": "harsh jksvd",
+              "id": "3",
+              "status": false
+            },
+            "data": "harsh",
+            "id": "2",
+            "status": false
+          },
+          "2": {
+            "data": "harsh jksvd",
+            "id": "3",
+            "status": false
+          },
+          "data": "khatri",
+          "id": "1",
+          "status": false
+        },
+        "1": {
+          "0": {
+            "data": "khatri",
+            "id": "1",
+            "status": false
+          },
+          "1": {
+            "0": {
+              "data": "khatri",
+              "id": "1",
+              "status": false
+            },
+            "1": {
+              "data": "harsh",
+              "id": "2",
+              "status": true
+            },
+            "2": {
+              "data": "harsh jksvd",
+              "id": "3",
+              "status": false
+            },
+            "data": "harsh",
+            "id": "2",
+            "status": true
+          },
+          "2": {
+            "data": "harsh jksvd",
+            "id": "3",
+            "status": false
+          },
+          "data": "harsh",
+          "id": "2",
+          "status": true
+        },
+        "2": {
+          "data": "harsh jksvd",
+          "id": "3",
+          "status": false
+        },
+        "data": "harsh",
+        "id": "2",
+        "status": true
+      },
+      "2": {
+        "data": "harsh jksvd",
+        "id": "3",
+        "status": false
+      },
+      "data": "harsh khatri",
+      "id": 2,
+      "status": false
+    },
+    {
+      "data": "mannu jksvd",
+      "id": 3,
+      "status": false
     }
   ]
 }

@@ -1,16 +1,74 @@
+const url = "http://localhost:3002/todo";
+
+
 export default function ItemShow({singleItem,setTodo,wholeTodo})
 {
-
-    function toggleHandler(wholeTodo)
-    {
-      // console.log(wholeTodo)
-       const updateData = wholeTodo.map((item)=> 
-                { return !(item.id == singleItem.id) ?
+         const updateData = wholeTodo.map((item)=> 
+                { return !(item.id === singleItem.id) ?
                                  item  :
                                 {...item,status: !(item.status)}
     });
-       setTodo(updateData);
+
+
+   async function toggleHandler()
+    {
+     console.log(singleItem)
+
+   //   try {
+   //    const response = await fetch(`${url}/${singleItem.id}`, {
+   //    method: "PATCH",  
+   //    headers: {
+   //      "Content-Type": "application/json",
+   //    },
+
+
+   //    body: JSON.stringify(updateData),
+   //  })
+   //  .then(async(res) => {
+      //   console.log( await res.json())
+      //   console.log(updateData)
+   //  });  
+   //  const responsedata = await response.json();
+   //  console.log(responsedata);
+
+
+//   } catch (error) {
+//     console.error("Error patching todo:", error);
+//   }
+}
+
+
+
+
+
+
+
+      // console.log(wholeTodo)
+   //     const updateData = wholeTodo.map((item)=> 
+   //              { return !(item.id === singleItem.id) ?
+   //                               item  :
+   //                              {...item,status: !(item.status)}
+   //  });
+   //     setTodo(updateData);
+    
+
+
+   async  function removeHandler()
+    {
+      console.log("inside remove handler");
+       try {
+          await fetch(`${url}/${singleItem.id}` , {
+           method: "DELETE"
+      });
+
+   //  console.log(" Deleted successfully.");
+    } catch (error) {
+    console.error(" Error:", error.message);
+  }
     }
+
+      
+
     return(
         <div style={{
             display:"flex", 
@@ -30,9 +88,20 @@ export default function ItemShow({singleItem,setTodo,wholeTodo})
              </div>
              <div>
                 <button onClick={() => {
-                  toggleHandler(wholeTodo);
+                  toggleHandler({singleItem});
                 }} style={{height:"100%"}}>Toggle</button>
              </div>
+
+             <div>
+               <button onClick={() =>{
+                  removeHandler({singleItem});
+               }}>Remove</button>
+             </div>
+             {/* <div>
+               {
+                  console.log(singleItem.status)
+               }
+             </div> */}
         </div>
     )
 }

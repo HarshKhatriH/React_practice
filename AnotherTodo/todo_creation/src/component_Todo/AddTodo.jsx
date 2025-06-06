@@ -8,13 +8,14 @@ export default function AddTodo({addHandler})
 
      useEffect(()=>{
         x.current.focus();
-        console.log("inside");
+        // console.log("inside");
     },[])
    
 
     function addTodoItem(e)
     {
         setItem(e.target.value);
+        // setItem('');
     }
 
     
