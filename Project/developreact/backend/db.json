@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "name": "khatri",
+      "age": 4,
+      "gender": "Male",
+      "course": "Web development",
+      "ischecked": true,
+      "email": "harshkhatrih@gmail.com",
+      "status": true
+    },
+    {
+      "name": "harsh khatri",
+      "age": "25",
+      "email": "harshkhatrih@gmail.com",
+      "gender": "Male",
+      "course": "Cloud Computing",
+      "isChecked": true,
+      "status": true,
+      "id": 3
+    },
+    {
+      "name": "adarsh",
+      "age": "25",
+      "email": "adkaht@gmial.com",
+      "gender": "Male",
+      "course": "Web Devlopment",
+      "isChecked": true,
+      "status": true,
+      "id": 4
+    },
+    {
+      "name": "mannu",
+      "age": "52",
+      "email": "khatri@gmail",
+      "gender": "Male",
+      "course": "Cloud Computing",
+      "isChecked": true,
+      "status": true,
+      "id": 5
+    }
+  ]
+}

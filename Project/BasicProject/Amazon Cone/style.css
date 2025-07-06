@@ -1,0 +1,500 @@
+/* https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB546381437_.png */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    /* color: red;
+    font-size: 50px;
+    height: 100px; */
+    height: 100vh;
+ /* background-color: #131921; */
+    
+}   
+
+/* --------------------------nav header---------------- */
+
+
+.nav-header{
+ background-color: #131921;
+ /* background-color: red; */
+ height: 60px;
+ color: white;
+ display: flex;
+
+
+}
+
+.nav-header-container{
+    display: flex;
+    /* background-color: red; */
+    width: 98%;
+    margin: auto;
+    height: 50px;
+
+}
+
+.nav-left{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    /* background-color: yellow; */
+    /* margin: auto; */
+}
+
+.nav-left-firstPart{
+    display: flex;
+    width: 125px;
+    /* background-color: yellow; */
+    height: 50px;
+
+    
+}
+
+.nav-left-firstPart:hover{
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.nav-amazon-icon{
+    /* bor */
+    /* margin-top: 10px; */
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    /* overflow: hidden; */
+}
+
+.nav-amazon-in{
+    margin-top: 10px;
+}
+
+/* -------------nav left second part-------------- */
+.nav-left-secondPart{
+    width: 150px;
+    display: flex;
+    /* border: 1px solid red; */
+    /* gap: 10px; */
+}
+
+.nav-left-secondPart:hover{
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.nav-map-icon{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.nav-deliver-add{
+    display: flex;
+    /* margin: auto; */
+    flex-direction: column;
+    margin: auto;
+}
+
+.nav-exact-address{
+    font-weight: 700;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
+/* ---------------------nav-middle-header---- */
+
+.nav-middle-header{
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    /* margin: auto; */
+    margin-top: 7px;
+     /* outline: none; */
+}
+
+
+
+.nav-select{
+    background-color:#e6e6e6;
+    width: 60px;
+    height: 100%;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-radius: 5px 0 0 5px;
+
+    /* appearance: none; */
+    /* all: unset;   */
+    /* border: 1px solid green; */
+    /* outline: none; */
+    /* border: none; */
+
+    /* border-left-radius: 10px; */
+}
+.nav-select:focus{
+    border: 3.5px solid #feab3f;
+    /* height: 45px; */
+}
+.nav-select:hover{
+    background-color: #dddadaed;
+    transition: 0.3s;
+}
+
+/* .nav-select-option{
+    
+    padding-left: 10px;
+
+} */
+
+.nav-select-search{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.nav-select-search:focus{
+    border: 3.5px solid #feab3f;
+    /* height: 45px; */
+}
+
+
+.nav-click-search{
+    width: 50px;
+    height: 100%;
+    /* border: 5px solid green; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20px; */
+    background-color: #ffb14a;
+    border-radius: 0 5px 5px 0; 
+}
+
+.nav-click-search:focus{
+    border: 3.5px solid #fe3f3f;
+    /* height: 45px; */
+}
+
+.nav-click-search-icon{
+    /* margin: auto; */
+    font-size: 20px;
+}
+
+
+/* ---------------------------------nav last container----------------------- */
+
+.nav-last-container{
+    margin-left: 20px;
+    width: 360px;
+    display: flex;
+    gap: 10px;
+    /* background-color: red; */
+}
+
+.nav-lang-container{
+    height: 100%;
+    width: 60px;
+   display: flex;
+   /* border: 1px solid skyblue; */
+   /* margin-top: 25px; */
+   gap: 5px;
+   
+}
+
+.nav-lang-left{
+    transition: border 1s ease;
+    /* display: flex; */
+    /* align-items: center; */
+    padding-top: 23px;
+    height: 50px;
+}
+
+
+.nav-lang-left:hover{
+    border: 1px solid white;
+    /* transition: 0.3s; */
+    /* font-size: 50px; */
+}
+.lang-flag{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: red; */
+}
+.india-flag{
+    /* height: 100%; */
+    width: 20px;
+}
+
+.nav-lang-down-arrow{
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+
+/* --------------------------------ac   count container--------------------- */
+
+.account-container{
+    width: 130px;
+    display: flex;
+    /* border: 1px solid black; */
+    /* padding-top: 10px; */
+
+}
+
+.account-container-ownername{
+    /* align-items: center; */
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.account-container-ownername:hover{
+    border: 1px solid white;
+ 
+}
+
+.account-and-list{
+    font-weight: 700;
+}
+
+.down-arrow-icon{
+    font-size: 12px;
+    padding-top: 30px;
+
+}
+
+/* --------------------return container----------- */
+.return-container{
+    width: 70px;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    margin-left: -10px;
+    padding-left: 5px;
+    padding-top: 10px;
+    /* margin: auto; */
+    /* background-color: skyblue; */
+}
+
+.return-container:hover{
+    border: 1px solid white;
+}
+
+/* ----------cart container---------- */
+.cart-container{
+    /* border: 1px solid skyblue; */
+    width: 80px;
+    display: flex;
+}
+
+.cart-container:hover{
+ border: 1px solid white;
+}
+.cart-icon-box{
+    width: 40px;
+}
+
+.total-item-cart{
+    font-size: 18px;
+    padding-left: 14px;
+    padding-top: 3px;
+    /* position: relative; */
+}
+
+.cart-icon{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.cart-hai{
+    font-size: 20px;
+    padding-top: 22px;
+
+}
+
+/* ---------------------------------------nav footer--------------------------- */
+
+.nav-footer-container{
+    /* display: flex; */
+    border: 1px solid black;
+    height: 40px;
+    background-color: #141a23e6;
+    color: white ;
+}
+
+.nav-footer{
+    width: 1100px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-weight: 600;
+    /* align-items: center; */
+
+}
+
+.nav-footer-section{
+    align-items: center;
+    display: flex;
+}
+.nav-footer-section:hover{
+  border: 1px solid white;
+  cursor: pointer;
+}
+/* 
+.menu-icon-box{
+    align-items: center;
+    display: flex;
+}
+.menu-icon-box:hover{
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.todays-deals{
+    align-items: center;
+    display: flex;
+}
+.todays-deals:hover{
+  border: 1px solid white;
+  cursor: pointer;
+
+}
+
+.mx-player{
+    align-items: center;
+    display: flex;
+}
+.mx-player:hover{
+  border: 1px solid white;
+  cursor: pointer;
+
+}
+
+
+.sell{
+    align-items: center;
+    display: flex;
+}
+.sell:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.buy-again{
+    align-items: center;
+    display: flex;
+}
+.buy-again:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.gift-cards{
+    align-items: center;
+    display: flex;
+}
+.gift-cards:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.kindle-ebooks{
+    align-items: center;
+    display: flex;
+}
+.kindle-ebooks:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.browsing-history{
+    align-items: center;
+    display: flex;
+}
+.browsing-history:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.amazon-pay{
+    align-items: center;
+    display: flex;
+}
+.amazon-pay:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.owner-amazon-site{
+    align-items: center;
+    display: flex;
+}
+.owner-amazon-site:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.amazon-basics{
+    align-items: center;
+    display: flex;
+}
+.amazon-basics:hover{
+  cursor: pointer;
+  border: 1px solid white;
+} */
+
+
+/* ------------------------image section------------ */
+
+.image-container{
+ /* margin-top: 0.5px; */
+ display: flex;
+ position: relative;
+}
+
+.image-container-box{
+  display: flex;
+}
+
+.image-item{
+ min-width: 100%;
+}
+
+.image-item img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ----image btn------------ */
+.image-changing-btn{
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   /* border: 1px solid red; */
+   width: 100%;
+   /* margin-top: 10px; */
+
+}
+.image-btn{
+  height: 250px;
+  width: 84px;
+  font-size: 30px;
+  background-color: transparent;
+  border: transparent;
+  margin-top: 2px;
+  border-radius: 5px;
+
+}
+
+.image-btn:focus{
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px white;
+}

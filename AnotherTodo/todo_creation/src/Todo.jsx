@@ -67,6 +67,7 @@ export default function Todo()
     useEffect(()=>{
         
       getData();
+      setTodo("");
     },[])
            
 
@@ -101,7 +102,7 @@ export default function Todo()
                 InCompleted Data
             </div>
             <div>
-                <ItemList todo={todo.filter((item) => !item.status)} setTodo={setTodo} wholeTodo={todo}/>
+                <ItemList todo={todo.filter((item) => !item.status)} setTodo={setTodo} wholeTodo={todo} getData={getData}/>
             </div>
 
             

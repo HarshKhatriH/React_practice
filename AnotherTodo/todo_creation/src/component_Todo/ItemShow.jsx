@@ -1,40 +1,36 @@
 const url = "http://localhost:3002/todo";
 
 
-export default function ItemShow({singleItem,setTodo,wholeTodo})
+export default function ItemShow({singleItem,setTodo,wholeTodo,getData})
 {
-         const updateData = wholeTodo.map((item)=> 
-                { return !(item.id === singleItem.id) ?
-                                 item  :
-                                {...item,status: !(item.status)}
-    });
 
 
    async function toggleHandler()
     {
-     console.log(singleItem)
+   //   console.log(singleItem)
 
-   //   try {
-   //    const response = await fetch(`${url}/${singleItem.id}`, {
-   //    method: "PATCH",  
-   //    headers: {
-   //      "Content-Type": "application/json",
-   //    },
+     try {
+      const response = await fetch(`${url}/${singleItem.id}`, {
+      method: "PATCH",  
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(
+         {
+            status:!singleItem.status
+         }
+      ),
+    })
+     if (response.ok) {
+      getData();
+    } else {
+      console.error("Failed to update status");
+    }
 
 
-   //    body: JSON.stringify(updateData),
-   //  })
-   //  .then(async(res) => {
-      //   console.log( await res.json())
-      //   console.log(updateData)
-   //  });  
-   //  const responsedata = await response.json();
-   //  console.log(responsedata);
-
-
-//   } catch (error) {
-//     console.error("Error patching todo:", error);
-//   }
+  } catch (error) {
+    console.error("Error patching todo:", error);
+  }
 }
 
 
@@ -57,9 +53,14 @@ export default function ItemShow({singleItem,setTodo,wholeTodo})
     {
       console.log("inside remove handler");
        try {
-          await fetch(`${url}/${singleItem.id}` , {
+          const response = await fetch(`${url}/${singleItem.id}` , {
            method: "DELETE"
       });
+      if (response.ok) {
+      getData();
+    } else {
+      console.error("Failed to update status");
+    }
 
    //  console.log(" Deleted successfully.");
     } catch (error) {

@@ -18,6 +18,15 @@ export default function AddTodo({addHandler})
         // setItem('');
     }
 
+    function presskey(e)
+    {
+        if(e.charcode==13)
+        {
+            addHandler(item,setItem);
+            x.current.focus();
+        }
+    }
+
     
 
 
@@ -27,6 +36,7 @@ export default function AddTodo({addHandler})
             <div>
                 <input  placeholder="something here"
                         onChange={addTodoItem}
+                        onKeyPress={presskey}
                         value={item}   
                         ref={x}       
                 />

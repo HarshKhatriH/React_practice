@@ -1,0 +1,24 @@
+{
+  "todo": [
+    {
+      "name": "harsh",
+      "status": false,
+      "id": 1
+    },
+    {
+      "name": "khatri",
+      "status": false,
+      "id": 2
+    },
+    {
+      "name": "gaurav",
+      "status": true,
+      "id": 1749796297592
+    },
+    {
+      "name": "adarsh",
+      "status": true,
+      "id": 1749796314608
+    }
+  ]
+}
